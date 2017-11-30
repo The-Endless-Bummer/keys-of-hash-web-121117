@@ -4,5 +4,6 @@ class Hash
     arguments.each do |argument|
       keys << argument
     end
+    keys
   end
 end
