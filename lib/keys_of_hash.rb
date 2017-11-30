@@ -1,5 +1,8 @@
 class Hash
   def keys_of(*arguments)
-    [arguments]
+    keys = []
+    arguments.each do |argument|
+      keys << argument
+    end
   end
 end
