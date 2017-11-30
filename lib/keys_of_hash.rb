@@ -5,7 +5,7 @@ class Hash
     keys = []
     binding.pry
     arguments.each do |argument|
-      
+
     end
     keys
   end
